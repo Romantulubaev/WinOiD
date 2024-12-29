@@ -1,4 +1,3 @@
-clear
 echo "WinOiD"
 sleep 4s
 echo "preparing to start process"
@@ -9,7 +8,7 @@ cd /storage/FC8C-C492
 		clear
 		echo "updating and upgrading packages"
 		sleep 3s
-		apt update && apt upgrade
+		apt update -y && apt upgrade -y
 		clear
 		echo "installating wget"
 		sleep 3s
