@@ -44,11 +44,11 @@ cd /storage/FC8C-C492
 		rm w7.zip
 		wget -O win7 "https://raw.githubusercontent.com/Romantulubaev/WinOiD/main/start.sh"
 		chmod +x win7
-		cd storage/shared
-		mkdir WinDroiD
-		cd WinDroiD
-		mkdir SharedDrive
-		cd SharedDrive
+		cd storage/FC8C-C492
+		mkdir WinOiD
+		cd WinOiD
+		mkdir Share
+		cd Share
 		cd ~
 		clear
 		echo "./win7 to start windows 7!"
