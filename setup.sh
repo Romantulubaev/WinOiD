@@ -42,7 +42,7 @@ cd /storage/FC8C-C492
 		sleep 3s
 		unzip w7.zip
 		rm w7.zip
-		wget -O win7 "https://raw.githubusercontent.com/Romantulubaev/WinOiD/main/start.sh"
+		wget -O win7 "https://raw.githubusercontent.com/Romantulubaev/WinOiD/refs/heads/main/start.sh"
 		chmod +x win7
 		cd storage/FC8C-C492
 		mkdir WinOiD
