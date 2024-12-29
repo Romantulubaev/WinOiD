@@ -1,5 +1,6 @@
 echo "WinOiD"
 sleep 4s
+clear
 echo "preparing to start process"
 sleep 6s
 clear
