@@ -8,23 +8,23 @@ cd /storage/FC8C-C492
 		clear
 		echo "updating and upgrading packages"
 		sleep 3s
-		yes | apt update && yes | apt upgrade 
+		apt update && apt upgrade 
 		clear
 		echo "installating wget"
 		sleep 3s
-		pkg install wget -y
+		pkg install wget
 		clear
 		echo "installating unzip"
 		sleep 3s
-		pkg install unzip -y
+		pkg install unzip
 		clear
 		echo "enabling x11-repo"
 		sleep 3s
-		pkg install x11-repo -y
+		pkg install x11-repo
 		clear
 		echo "installating qemu-system-i386"
 		sleep 3s
-		pkg install qemu-system-i386-headless -y
+		pkg install qemu-system-i386-headless
 		clear
 		echo "setting up storage access"
 		sleep 3s
